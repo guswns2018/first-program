@@ -1,4 +1,4 @@
-body.white{
+
         background-color: white;
         color: black;
         header {border-bottom: 5px solid black;
@@ -19,9 +19,7 @@ body.white{
         h3 {border-bottom: 2px solid black;
         padding : 2px;
         color : blue;}
-        }
 
-body.black{
         background-color: black;
         color: white;
         header {border-bottom: 5px solid white;
@@ -42,8 +40,7 @@ body.black{
         h3 {border-bottom: 2px solid white;
         padding : 2px;
         color : blue;}
-        }
-}
+        
 
 #control{
         float: right;
