@@ -1,31 +1,50 @@
 body.white{
         background-color: white;
         color: black;
-}
+        header {border-bottom: 5px solid black;
+        padding : 20px;}
+        nav {
+        border-right : 5px solid black;
+        width: 200px;
+        height : 3000px;
+        float : left;
+        }
+        nav ol {
+        list-style: none;
+        }
+        article {
+        float : left;
+        padding : 20px;
+        }
+        h3 {border-bottom: 2px solid black;
+        padding : 2px;
+        color : blue;}
+        }
 
 body.black{
         background-color: black;
         color: white;
+        header {border-bottom: 5px solid white;
+        padding : 20px;}
+        nav {
+        border-right : 5px solid white;
+        width: 200px;
+        height : 3000px;
+        float : left;
+        }
+        nav ol {
+        list-style: none;
+        }
+        article {
+        float : left;
+        padding : 20px;
+        }
+        h3 {border-bottom: 2px solid white;
+        padding : 2px;
+        color : blue;}
+        }
 }
 
-header {border-bottom: 5px solid black;
-        padding : 20px;}
-nav {
-  border-right : 5px solid black;
-  width: 200px;
-  height : 3000px;
-  float : left;
-}
-nav ol {
-list-style: none;
-}
-article {
-  float : left;
-  padding : 20px;
-}
-h3 {border-bottom: 2px solid black;
-    padding : 2px;
-    color : blue;}
 #control{
         float: right;
 }
